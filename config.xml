@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.CAL.yatzil"
-        version   = "1.1.4">
+        version   = "1.1.5">
   <name>יציל</name>
 
   <description>
@@ -21,7 +21,7 @@
   <feature name="http://api.phonegap.com/1.0/media"/>
   
   <feature name="http://api.phonegap.com/1.0/notification"/>-->
-
+  <preference name="android-minSdkVersion" value="14" />
   <preference name="phonegap-version" value="2.9.0" />
   <preference name="orientation"      value="portrait" />
   <preference name="target-device"    value="universal" />
